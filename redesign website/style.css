@@ -1,0 +1,235 @@
+body {
+  font-family: 'Inter', Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex; /* Mengatur tata letak menjadi flex */
+  align-items: center; /* Menengahkan elemen di header secara vertikal */
+  padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi */
+  justify-content: space-between; 
+}
+
+/* Untuk logo */
+.logo {
+  display: flex; /* Mengatur logo dan navigasi menjadi flex container */
+  align-items: center; /* Mengatur anak-anak agar berada di tengah vertikal */
+  margin-right:50px;
+  
+}
+
+/* Untuk menu navbar */
+.navbar {
+  display: flex; /* Mengatur tata letak menjadi flex */
+  align-items: center; /* Menengahkan elemen navbar secara vertikal */
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  justify-content: flex-end;
+}
+
+
+.nav-link.tanya-jawab {
+  white-space: nowrap; /* Mencegah pemutusan kata */
+}
+
+.nav-link:hover {
+  background-color: #e7e7e7;
+  color: #a86262;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-image: url('hiasan.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.container1{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px 20px;
+}
+h4{ 
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.hiasan3{ 
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+
+
+.container2 {
+   display: block;
+  margin-bottom: 20px;
+  background-color:#b1c7d4;
+  width: 100%;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Style dasar untuk tombol */
+.button {
+  display: block; /* Mengubah display menjadi block agar bisa menggunakan margin: 0 auto; */
+  margin: 0 auto; /* Menengahkan tombol secara horizontal */
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #33373c;
+  color: #f5f5f5;
+  background-color: #424952;
+  cursor: pointer;
+}
+/* Efek hover */
+.button:hover {
+  background-color:#f5f5f5;
+  color: rgb(14, 12, 12);
+}
+
+/* Efek saat tombol ditekan */
+.button:active {
+  color:#333;
+  background-color:#a86262;
+}
+
+/* Contoh penggunaan kelas lain */
+.danger {
+  border-color: #f44336;
+  color: #f44336;
+}
+
+.danger:hover {
+  background-color: #f44336;
+  color: white;
+}
+.container-footer {
+  display: grid;
+  grid-template-columns: auto auto; /* Dua kolom */
+  grid-template-rows: auto auto auto; /* Tiga baris */
+  gap: 20px; /* Jarak antar elemen */
+  flex-wrap: wrap; 
+}
+
+.footer-item {
+  grid-column: 1; /* Menempatkan item di kolom pertama */
+}
+
+.footer-content {
+  grid-column: 2; /* Menempatkan konten di kolom kedua */
+}
+
+
+.facebook-icon img {
+  width: 40px; /* Ukuran ikon Instagram */
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid white; /* Atur ketebalan dan jenis border sesuai kebutuhan */
+  padding: 1px; /* Jarak antara border dan ikon */
+  box-shadow: 0 0 0 2px rgba(235, 230, 230, 0.5); /* Ketebalan dan warna border abu-abu */
+}
+
+.twitter-icon img {
+  width: 40px; /* Ukuran ikon Instagram */
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid white; /* Atur ketebalan dan jenis border sesuai kebutuhan */
+  padding: 1px; /* Jarak antara border dan ikon */
+  box-shadow: 0 0 0 2px rgba(235, 230, 230, 0.5); /* Ketebalan dan warna border abu-abu */
+}
+
+
+.instagram-icon img {
+  width: 40px; /* Ukuran ikon Instagram */
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid white; /* Atur ketebalan dan jenis border sesuai kebutuhan */
+  padding: 1px; /* Jarak antara border dan ikon */
+  box-shadow: 0 0 0 2px rgba(235, 230, 230, 0.5); /* Ketebalan dan warna border abu-abu */
+}
+.copyright{ 
+  display: flex;
+  justify-content: center; /* Menengahkan elemen secara horizontal */
+  color: #9a9a9a;
+  font-size: 16px;
+}
+
+
