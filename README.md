@@ -23,3 +23,6 @@ saya memperbaiki tampilan dan elemen2 pada footer yang tidak rapi mulai dari tul
 
 5.menghilangkan navbar dan membuat copyright berada di tengah
 menurut saya tidak perlu ada navbar lagi di bawah karena diatas sudah ada. selain posisi copyright yang berada disamping navbar sangat mengganggu tampilan website sehingga sya memindahkan nya di bawah dan di tengah. 
+
+6.menghilangkan gambar/hiasan berwarna putih
+menurut saya hiasannya sdh terlalu banyak sehingga saya menghilangkannya
