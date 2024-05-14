@@ -1,1 +1,1 @@
-![Alt text].(https://github.com/Mawar077/Website-Nanda-Art/issues/1#issue-2294672139) 
+![Alt text].(https://github.com/Mawar077/Website-Nanda-Art/blob/main/IMG-20240514-WA0016.jpg) 
