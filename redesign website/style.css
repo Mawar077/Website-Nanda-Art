@@ -178,21 +178,20 @@ h4{
   background-color: #f44336;
   color: white;
 }
-.container-footer {
+
+.footer {
   display: grid;
-  grid-template-columns: auto auto; 
-  grid-template-rows: auto auto auto; 
-  gap: 20px; 
-  flex-wrap: wrap; 
+  grid-template-columns: repeat(3, auto); /* Mengatur tiga kolom */
+  grid-gap: 30px;
+  padding-top: 30px;
 }
 
-.footer-item {
-  grid-column: 1; 
-}
-
-.footer-content {
-  grid-column: 2; 
-}
+.footer-item{
+font-size: 24px;
+font-weight: 500;
+line-height: 1.1;
+color: #333;
+  }
 
 
 .facebook-icon img {
